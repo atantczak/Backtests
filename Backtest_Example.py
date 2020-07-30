@@ -38,7 +38,7 @@ pd.set_option('display.max_columns', None)
 style.use('seaborn')
 
 
-class Indicators():
+class backtest_engine():
     def __init__(self, tickers, start_date, end_date):
 
         #####
@@ -280,7 +280,7 @@ mrange = 1
 gen = gen_tickers(year, smonth, mrange)
 tickers = gen.sp500_grab(30)
 
-ind_env = Indicators(tickers, '2020-01-02', '2020-07-16')
+ind_env = backtest_engine(tickers, '2020-01-02', '2020-07-16')
 ind_env.run_sim()
 
 
