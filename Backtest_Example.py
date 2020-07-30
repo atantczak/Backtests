@@ -254,6 +254,8 @@ class Indicators():
     def run_sim(self):
 
         now = dt.datetime.now()
+        
+        self.sell = -0.05
 
         port, w_pct, w_avg, l_avg, bm = self.sim()
 
