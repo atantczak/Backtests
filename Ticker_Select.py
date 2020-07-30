@@ -1,8 +1,6 @@
 # ---------------------------------------------------------------------------------------------------------------------#
 '''
-This code is to break up a set of large tickers and run them simultaneously through your desired backtest and then
-compile those results to see what your portfolio return would have been given that you didn't rebalance throughout the
-time period.
+This code is to pull random tickers from the SP500, Russell, or stock exchanges.
 '''
 # ---------------------------------------------------------------------------------------------------------------------#
 
